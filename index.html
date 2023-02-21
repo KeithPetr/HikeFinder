@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <!----- GOOGLE FONT ----->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>HikeFinder</title>
+  </head>
+  <body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/Mountains.png" alt="mountain-icon">
+            <h2>HikeFinder</h2>
+        </div>
+        <img src="images/menu.svg" alt="hamburger-menu" class="hamburger-menu">
+    </header>
+    <div class="hero-container">
+      <div class="opacity"></div>
+      <img class="hero-img" src="images/Nature-1.jpg" />
+      <div class="hero-items">
+        <div class="hero-text">
+          <h1 class="hero-title">Find Your Next <span>Adventure</span></h1>
+          <p class="hero-description">
+            Your next hiking adventure awaits. Get on the trail with detailed
+            maps and updates shared by hikers like you.
+          </p>
+        </div>
+        <div class="hero-search">
+          <img
+            src="images/Magnifying-Glass.png"
+            alt="magnifying glass"
+            class="hero-search-icon"
+          />
+          <input
+            type="text"
+            class="hero-search-input"
+            id="hero-search-input"
+            placeholder="Search by city"
+          />
+          <button class="search-btn" id="search-btn">SEARCH</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
